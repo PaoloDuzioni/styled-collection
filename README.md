@@ -1,7 +1,9 @@
 # Styled Collection
 
-A collection of Styled Components React JS components.
+![Version](https://img.shields.io/badge/version-0.1.0-success)
 
-## Includes
+**Case study:** A collection of Styled Components React JS components.
+
+## Includes the following components
 
 - [Button](https://bit.dev/paoloduzioni/styled-collection/button)
