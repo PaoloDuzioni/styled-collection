@@ -11,9 +11,14 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
     <React.StrictMode>
+        {/* Theme available in all styled components */}
         <ThemeProvider theme={Theme}>
             <GlobalStyle />
-            <App />
+            {/* 
+            Theme available to normal components passed
+            like a normal prop
+            */}
+            <App theme={Theme} />
         </ThemeProvider>
     </React.StrictMode>,
     document.getElementById('root')

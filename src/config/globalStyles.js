@@ -13,7 +13,17 @@ const GlobalStyle = createGlobalStyle`
     }
     body {
         color: ${({ theme }) => theme.typography.colorFont};
-        background: ${({ theme }) => theme.typography.backColor}
+        background: ${({ theme }) => theme.typography.backColor};
+
+        padding: 3rem;
+    }
+    h1 {
+        margin-bottom: 2rem;
+        font-size: 2em;
+    }
+    h2 {
+        margin-bottom: 1.5rem;
+        font-size: 1.5em;
     }
     img{
         max-width: 100%;
