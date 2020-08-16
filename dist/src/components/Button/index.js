@@ -5,8 +5,6 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _react = _interopRequireDefault(require("react"));
-
 var _styledComponents = _interopRequireDefault(require("styled-components"));
 
 var _polished = require("polished");
@@ -25,15 +23,7 @@ function _templateObject() {
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var Btn = _styledComponents.default.a(_templateObject(), (0, _polished.darken)(0.2, '#26a69a'));
-
-var Button = function Button(_ref) {
-  var children = _ref.children,
-      click = _ref.click;
-  return /*#__PURE__*/_react.default.createElement(Btn, {
-    onClick: click
-  }, children);
-};
+var Button = _styledComponents.default.a(_templateObject(), (0, _polished.darken)(0.2, '#26a69a'));
 
 var _default = Button;
 exports.default = _default;

@@ -1,17 +1,16 @@
 import React from 'react';
-
 import Button from './components/Button';
 
 function App() {
     return (
-        <div className="App">
+        <>
             <h1>
-                Styled Collection
-                <small>&lt; v.0.1.2 &gt;</small>
+                Styled Collection &nbsp;
+                <small>&lt; Version 0.1.3 &gt;</small>
             </h1>
 
-            <Button click={() => alert('Clicked')}>My Button</Button>
-        </div>
+            <Button onClick={() => alert('Clicked')}>My Button</Button>
+        </>
     );
 }
 

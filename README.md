@@ -1,6 +1,6 @@
 # Styled Collection
 
-![Version](https://img.shields.io/badge/version-0.1.2-success)
+![Version](https://img.shields.io/badge/version-0.1.3-success)
 
 **Case study:** A collection of Styled Components React JS components.
 

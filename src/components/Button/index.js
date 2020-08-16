@@ -1,8 +1,7 @@
-import React from 'react';
 import styled from 'styled-components';
 import { darken } from 'polished';
 
-const Btn = styled.a`
+const Button = styled.a`
     display: inline-block;
     padding: 0.7rem 1.5rem;
     text-decoration: none;
@@ -18,9 +17,5 @@ const Btn = styled.a`
         background: ${darken(0.2, '#26a69a')};
     }
 `;
-
-const Button = ({ children, click }) => {
-    return <Btn onClick={click}>{children}</Btn>;
-};
 
 export default Button;
