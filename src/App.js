@@ -7,10 +7,10 @@ function App() {
         <div className="App">
             <h1>
                 Styled Collection
-                <small>&lt; v.0.1.0 &gt;</small>
+                <small>&lt; v.0.1.2 &gt;</small>
             </h1>
 
-            <Button>My Button</Button>
+            <Button click={() => alert('Clicked')}>My Button</Button>
         </div>
     );
 }
